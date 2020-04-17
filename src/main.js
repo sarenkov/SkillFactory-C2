@@ -39,5 +39,5 @@ cats.addEventListener('click', () => vote(catsURI));
 dogs.addEventListener('click', () => vote(dogsURI));
 parrots.addEventListener('click', () => vote(parrotsURI));
 results.addEventListener('click', () => {
-    location.href = '/stats.html';
+    location.href = 'stats.html';
 })
